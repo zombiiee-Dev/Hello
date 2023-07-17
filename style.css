@@ -1,0 +1,27 @@
+#container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+#title {
+    color: brown;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#click{
+    display: flex;
+  justify-content: center;
+  align-items: center;  
+  position: absolute;
+  top: 450px;
+  cursor: pointer;
+}
